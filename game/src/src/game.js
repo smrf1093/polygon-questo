@@ -17,7 +17,7 @@ export default class Game extends Phaser.Scene {
   playerName = localStorage.getItem("playerName");
 
   init() {
-    this.maticsCollected = 0;
+    this.maticsCollected = -1;
   }
   constructor() {
     super("game");

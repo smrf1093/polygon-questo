@@ -122,7 +122,7 @@ export default function App(props) {
       <ul>
         <li>Try to collect only Matic symbols</li>
         <li>You should not collect ETH symbols</li>
-        <li>You have to bet at least 0.002 to start the game</li>
+        <li>You have to bet at least the start fee to start the game</li>
         <li>
           At the end of each day the winner of the day by the best score will
           own all the bets
@@ -157,7 +157,7 @@ export default function App(props) {
         <li>
           If you want to participate in bet and save your score with (
           {playerScore}) value then
-          <button onClick={changePlayerScoreBtn}>Save</button>
+          <button className={"btn-primary"} onClick={changePlayerScoreBtn}>Save</button>
         </li>
       </ul>
     </div>
