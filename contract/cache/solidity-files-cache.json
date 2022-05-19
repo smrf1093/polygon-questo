@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/rezafarzanmehr/projects/blockchain/questo/contract/contracts/QuestoStorage.sol": {
+      "lastModificationDate": 1652940909847,
+      "contentHash": "75581aebaabf631dfc72b16e6eef8c5f",
+      "sourceName": "contracts/QuestoStorage.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.9"
+      ],
+      "artifacts": [
+        "QuestoStorage"
+      ]
+    }
+  }
+}
